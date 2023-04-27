@@ -1,5 +1,6 @@
 creating a simple shell:
  A shell is an interaction between the user and the computer hardware through the kernel.
+simple shell project by ellah jonnez and Austasty
 
 List of allowed functions and system calls
 
