@@ -7,6 +7,6 @@
 void get_sigint(int sig)
 {
 	(void)sig;
-	write(STDOUT_FILENO, "\nMyShell$ :)", 14);
+	write(STDOUT_FILENO, "\nMyShell$ :)", 11);
 }
 

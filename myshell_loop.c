@@ -37,7 +37,7 @@ char *no_comment(char *in)
 
 /**
  * myshell_loop - the loop of the shell
- * @datash: data relevant (av, input, args)
+ * @datash: data relevant (argv, input, args)
  *
  * Return: no return.
  */
@@ -50,7 +50,7 @@ void myshell_loop(data_myshell *datash)
 	loop = 1;
 	while (loop == 1)
 	{
-		write(STDIN_FILENO, "MyShell$ :) ", 14);
+		write(STDIN_FILENO, "MyShell$ :) ", 11);
 		input = read_input_line(&i_eof);
 		if (i_eof != -1)
 		{
